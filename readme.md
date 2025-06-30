@@ -2,15 +2,15 @@
 
 Este repositório contém o trabalho da disciplina de Programação Para a Internet I, do curso de Análise e Desenvolvimento de Sistemas do Instituto Federal do Piauí (IFPI), ministrada pelo professor Ely.
 
-[cite_start]O projeto foi dividido em duas etapas principais, com o objetivo de estudar e aplicar na prática os conceitos de acessibilidade web, seguindo as diretrizes da WCAG 2.1. [cite: 5]
+O projeto foi dividido em duas etapas principais, com o objetivo de estudar e aplicar na prática os conceitos de acessibilidade web, seguindo as diretrizes da WCAG 2.1.
 
 ---
 
 ## 📂 Etapa 1: Análise de Acessibilidade
 
-[cite_start]Nesta etapa, foi realizado um estudo sobre a acessibilidade de três sites institucionais brasileiros. [cite: 3] [cite_start]O objetivo foi identificar pontos fortes, fracos e sugerir melhorias técnicas. [cite: 3]
+Nesta etapa, foi realizado um estudo sobre a acessibilidade de três sites institucionais brasileiros. O objetivo foi identificar pontos fortes, fracos e sugerir melhorias técnicas.
 
-[cite_start]A análise foi conduzida utilizando navegação via teclado e o leitor de tela NVDA. [cite: 7]
+A análise foi conduzida utilizando navegação via teclado e o leitor de tela NVDA.
 
 **Sites Analisados:**
 * Instituto Federal do Piauí (IFPI)
@@ -23,17 +23,17 @@ O documento completo com a avaliação detalhada de cada site pode ser encontrad
 
 ## 💻 Etapa 2: Construção de Página Acessível
 
-[cite_start]A segunda etapa consistiu na construção de uma página de notícias simples, onde os princípios de acessibilidade foram aplicados desde a concepção. [cite: 10]
+A segunda etapa consistiu na construção de uma página de notícias simples, onde os princípios de acessibilidade foram aplicados desde a concepção.
 
 O resultado é o arquivo `index.html` e sua folha de estilos `style.css`.
 
 **Principais Recursos de Acessibilidade Implementados:**
 
-* [cite_start]**HTML Semântico:** A estrutura da página utiliza tags como `<header>`, `<nav>`, `<main>`, `<aside>` e `<footer>` para criar marcos de navegação claros para leitores de tela. [cite: 12]
-* [cite_start]**Foco Visível:** Todos os elementos interativos (links, botões, inputs) possuem um destaque visual claro (`outline`) quando recebem foco pelo teclado, utilizando a pseudo-classe `:focus-visible`. [cite: 15]
-* [cite_start]**Skip Link:** Um link "Pular para o conteúdo principal" é o primeiro item focável, permitindo que usuários de teclado ignorem o menu e cheguem diretamente ao conteúdo principal. [cite: 14]
-* [cite_start]**Conteúdo para Leitores de Tela:** Foi utilizada a técnica da classe `.sr-only` para fornecer contexto adicional em links ambíguos, como "Leia mais", sem poluir a interface visual. [cite: 13]
-* [cite_start]**Contraste e Rótulos:** O projeto utiliza cores com bom contraste e todos os campos de formulário possuem rótulos (`<label>`) associados corretamente. [cite: 8]
+* **HTML Semântico:** A estrutura da página utiliza tags como `<header>`, `<nav>`, `<main>`, `<aside>` e `<footer>` para criar marcos de navegação claros para leitores de tela.
+* **Foco Visível:** Todos os elementos interativos (links, botões, inputs) possuem um destaque visual claro (`outline`) quando recebem foco pelo teclado, utilizando a pseudo-classe `:focus-visible`.
+* **Skip Link:** Um link "Pular para o conteúdo principal" é o primeiro item focável, permitindo que usuários de teclado ignorem o menu e cheguem diretamente ao conteúdo principal.
+* **Conteúdo para Leitores de Tela:** Foi utilizada a técnica da classe `.sr-only` para fornecer contexto adicional em links ambíguos, como "Leia mais", sem poluir a interface visual.
+* **Contraste e Rótulos:** O projeto utiliza cores com bom contraste e todos os campos de formulário possuem rótulos (`<label>`) associados corretamente.
 
 ---
 
